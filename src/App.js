@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Nav/>
         <Routes>
-          <Route path="/css" element={<FollowCss name={'빵구'}/>} />
+          <Route path="/css" element={<FollowCss/>} />
           <Route path="/js" element={<FollowJs/>} />
         </Routes>
       </BrowserRouter>
